@@ -32,7 +32,6 @@ O objetivo principal deste trabalho é aplicar os conhecimentos de análise e ma
 * Quais são os meses de pico para viagens e como a duração média e o custo médio variam ao longo do ano?
 
 ## Detalhamento dos Passos Realizados
-#### Esta seção será preenchida com o código e os resultados do Jupyter Notebook.
 
 1. Limpeza e Preparação de Dados
 Conversão de Tipos: Conversão das colunas Accommodation cost, Transportation cost, Duration (days) e Traveler age para tipos numéricos (float/int).
