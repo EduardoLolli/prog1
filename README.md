@@ -21,9 +21,7 @@ O objetivo principal deste trabalho é aplicar os conhecimentos de análise e ma
 
 * Qual é o meio de transporte mais comum e qual é a relação entre seu custo médio e a duração média da viagem?
 
-* Qual é o custo total médio da viagem e como ele se distribui?
-
-* Qual é o custo médio por dia e quais destinos ou tipos de acomodação são mais "caros" ou "econômicos" por dia?
+* Qual é o custo médio e quais destinos ou tipos de acomodação são mais "caros" ou "econômicos" por dia?
 
 * Quais são as viagens com os maiores custos totais e o que as torna caras?
 
