@@ -27,31 +27,57 @@ O objetivo principal deste trabalho é aplicar os conhecimentos de análise e ma
 
 * Existe uma correlação entre a idade do viajante e a duração da viagem?
 
-* Quais são os meses de pico para viagens e como a duração média e o custo médio variam ao longo do ano?
-
 ## Detalhamento dos Passos Realizados
 
-1. Limpeza e Preparação de Dados
-Conversão de Tipos: Conversão das colunas Accommodation cost, Transportation cost, Duration (days) e Traveler age para tipos numéricos (float/int).
+### Primeiro Insight: Quais são os 10 destinos mais visitados pelos viajantes segundo o dataset?
 
-Tratamento de Datas: Conversão das colunas Start date e End date para o tipo datetime.
+* 1º - Inicializado um gráfico com matplotlib.
 
-Tratamento de Valores Ausentes: (A ser detalhado: Ex.: Remoção de linhas com dados faltantes (NaN) ou preenchimento com a média/moda, dependendo da coluna).
+* 2º - Inicializada a variável "top_destinos" com os top 10 destinos, por meio da lib do pandas.
 
-Criação de Novas Colunas:
+* 3º - Definido no gráfico de barras, no eixo X, com os valores referentes a quantidade de visitas e o eixo Y com o indice referente ao nome de cada destino de viagens.
 
-Custo Total: Accommodation cost + Transportation cost.
 
-Custo Diário Médio: Custo Total / Duration (days).
+### Segundo Insight: Qual é o meio de transporte mais comum e qual é a relação entre seu custo médio e a duração média da viagem?
 
-Mês de Início: Extraído da coluna Start date para análise de sazonalidade.
+* 1º - Realizada a limpeza dos valores de custos de transporte, eliminando os caracteres que não são referentes aos valores numéricos e formatando os valores para numeros decimais (float)
 
-2. Análises e Visualizações
-Análise de Frequência: Utilização de value_counts() e gráficos de barras para Destinos, Tipos de Acomodação e Tipos de Transporte.
+* 2º - Inicializado um dicionário com as traduções dos meios de transporte
 
-Análise de Médias: Utilização de groupby() para calcular médias de custo e duração agrupadas por gênero, nacionalidade e tipo de acomodação.
+* 3º - Agrupamento, remoção de valores nulos e reordenação dos valores de médias
+ 
+* 4º - Inicialização dos gráficos, criando o ax1 e ax2 que compartilham o mesmo eixo da figura
 
-Análise de Correlação: Cálculo do coeficiente de correlação entre idade e duração da viagem.
+* 5º - Inseridos detalhes visuais no gráfico, colocaração de cada linha do gráfico, legenda, posicionamento , etc.
 
-Visualizações: (A ser detalhado: Ex.: Gráficos de dispersão, Boxplots, Gráficos de Linha para sazonalidade, Mapas (se possível) para destinos).
+
+### Terceiro Insight: Qual é o custo médio e quais destinos ou tipos de acomodação são mais "caros" ou "econômicos" por dia?
+
+* 
+
+* 
+
+* 
+
+* 
+
+### Quarto Insight: Quais são as viagens com os maiores custos totais e o que as torna caras?
+
+* 
+
+* 
+
+* 
+
+* 
+
+### Quinto Insight: Existe uma correlação entre a idade e gênero do viajante e a duração da viagem?
+
+* 
+
+* 
+
+* 
+
+* 
 
