@@ -55,31 +55,26 @@ O objetivo principal deste trabalho é aplicar os conhecimentos de análise e ma
 
 ### Terceiro Insight: Qual é o custo médio e quais destinos ou tipos de acomodação são mais "caros" ou "econômicos" por dia?
 
-* 
+* 1º - Limpeza do valores de custo de acomodação, eliminando caracteres que não são referentes aos valores numéricos e formatando os valores para decimal
 
-* 
+* 2º - Inicializado um dicionário salvando os valores de cuso de cada tipo de acomodação a chave equivalente ao tipo de acomodação. 
 
-* 
+* 3º - Feita a separação dos valores a serem utilizados no cabeçalho e legenda dos gráfico 
 
-* 
+* 4º - Iniciado gráfico de barras em sentido decrescente de acordo com o custo
 
 ### Quarto Insight: Quais são as viagens com os maiores custos totais e o que as torna caras?
 
-* 
+* 1º - Criada uma nova coluna somando-se o custo total da viagem.
 
-* 
-
-* 
-
-* 
+* 2º - Inicializada uma tabela com os 5 maiores custos.
 
 ### Quinto Insight: Existe uma correlação entre a idade e gênero do viajante e a duração da viagem?
 
-* 
+* 1º - Criado um array com o range das faixas etárias que serão utilizadas como legenda.
 
-* 
+* 2º - Separação dos dados de idades de acordo com o gênero
 
-* 
+* 3º - Agrupados dadaos relacionados a cada genero
 
-* 
-
+* 4º - Criados dois gráficos em sentidos opostos, à esquerda masculino e à direita feminino
