@@ -1,10 +1,12 @@
 # Análise de Dados de Viagens Globais
 
-## Aluno: José Eduardo Fernandes Lolli
+## Alunos: 
+* José Eduardo Fernandes Lolli
+* Arthur Anício Carvalho Morais Silva
 
 
-* Dataset: [Traveler-trip-data](https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data)
-* Motivação do Projeto:
+#### Dataset: [Traveler-trip-data](https://www.kaggle.com/datasets/rkiattisak/traveler-trip-data)
+#### Motivação do Projeto:
 O objetivo principal deste trabalho é aplicar os conhecimentos de análise e manipulação de dados com Python para explorar tendências e padrões a respeito de viagens globais. A motivação vem do interesse pessoal sobre viagens e como fatores geográficos e financeiros se relacionam com as escolhas e a duração de viagens.
 
 ## Conjunto de Dados
